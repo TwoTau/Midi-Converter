@@ -1,0 +1,74 @@
+* {
+    font-family: "Open Sans", "Times New Roman", sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #2d2d2d;
+}
+
+#piano {
+
+}
+
+#staff {
+    background-color: #fff;
+}
+
+#visual, #text {
+    display: inline;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#visual {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#text {
+    float: right;
+}
+
+textarea {
+    width: 270px;
+    height: 90vh;
+    margin-right: 20px;
+    padding: 10px;
+    border: 0;
+    background-color: #202020;
+    box-shadow: 0 0 15px #040404 inset,
+                0 1px 0 rgba(150,150,150,0.3);
+    outline: 0;
+    color: #ddd;
+    text-shadow: -1px -1px 2px #000;
+    font-family: monospace;
+    font-size: 1.4em;
+    resize: none;
+    border-radius: 4px;
+}
+textarea:focus,
+textarea:active {
+    border-color: #04541a;
+}
+
+button {
+    padding: 10px 20px;
+    background: #1dc852;
+    border: 3px solid #111;
+}
+
+textarea::-webkit-scrollbar {
+    width: 8px;
+	background-color: transparent;
+} textarea::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #666;
+    box-shadow: 0 0 15px #040404;
+} textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+}

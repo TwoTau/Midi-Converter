@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+        <meta charset="UTF-8">
+		<title>Notes</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+        <div id="visual">
+            <canvas id="piano" width=630 height=460></canvas>
+            <br/>
+            <canvas id="staff" width=700 height=150></canvas>
+        </div>
+        <br/>
+        <div id="text">
+    		<textarea autocorrect="off" spellcheck="false" id="input"></textarea>
+<textarea id="output">Type some notes into the input or use the piano!
+
+".5" is a 5 beat rest
+
+"C42" is middle C for 2 beats
+
+"F5#3" is a high F# for 3 beats</textarea>
+        </div>
+        <script src="notes.js"></script>
+	</body>
+</html>
